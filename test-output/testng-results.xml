@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-17T20:46:01 IST" name="Default suite" finished-at="2023-08-17T20:46:10 IST" duration-ms="9075">
+    <groups>
+    </groups>
+    <test started-at="2023-08-17T20:46:01 IST" name="Default test" finished-at="2023-08-17T20:46:10 IST" duration-ms="9075">
+      <class name="com.spotify.tests.PlaylistWithReusbaleCalls">
+        <test-method signature="createPlaylist()[pri:1, instance:com.spotify.tests.PlaylistWithReusbaleCalls@18a645fd]" started-at="2023-08-17T20:46:01 IST" name="createPlaylist" finished-at="2023-08-17T20:46:07 IST" duration-ms="5514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylist -->
+        <test-method signature="getAPlaylist()[pri:2, instance:com.spotify.tests.PlaylistWithReusbaleCalls@18a645fd]" started-at="2023-08-17T20:46:07 IST" name="getAPlaylist" finished-at="2023-08-17T20:46:09 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPlaylist -->
+        <test-method signature="updateAPlaylist()[pri:3, instance:com.spotify.tests.PlaylistWithReusbaleCalls@18a645fd]" started-at="2023-08-17T20:46:09 IST" name="updateAPlaylist" finished-at="2023-08-17T20:46:10 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAPlaylist -->
+        <test-method signature="shouldNotbeAuthorized()[pri:4, instance:com.spotify.tests.PlaylistWithReusbaleCalls@18a645fd]" started-at="2023-08-17T20:46:10 IST" name="shouldNotbeAuthorized" finished-at="2023-08-17T20:46:10 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotbeAuthorized -->
+      </class> <!-- com.spotify.tests.PlaylistWithReusbaleCalls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
