@@ -92,7 +92,7 @@ public class PlaylistWithReusbaleCalls {
 				"BQCftoxo9W_Hbk5F4CUnbkt4ZbjRwsiGuk");
 
 		int statusCode = response.getStatusCode();
-		Assert.assertEquals(400, statusCode);
+		Assert.assertEquals(401, statusCode);
 
 	}
 }
