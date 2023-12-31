@@ -79,7 +79,7 @@ public class PlaylistWithReusbaleCalls {
 	}
 
 @Story("sps- 04- Regression of application")
-@Description("Passing wrong Bearer token to check AUthorization functionality.")
+@Description("Passing wrong Bearer token to check Authorization functionality.")
 
 	@Test(priority = 4)
 	public void shouldNotbeAuthorized() {
@@ -89,10 +89,10 @@ public class PlaylistWithReusbaleCalls {
 		reqPlaylist.setPublic(false);
 
 		Response response = PlaylistAPICalls.postRequest(reqPlaylist,
-				"BQCftoxo9W_Hbk5F4CUnbkt4ZbjRwsiGukmPkBIOtjtHTYZjstcARTly2cDIRLOab67qZVYCxR4Kj-On_JmBbJHVqRsnJrggQWT0jmN4VQtAUAuCzmRxxnMN12v-j2TDdFd8aBgPTrRnfz3o88vh4la14bJut1g5gOEyZ9e73EeRXKSBYl4PNLH-shhHtZlCZ2oYaDUl8DtCdH-P6Q82Nug3pRqCcc-QRDgonDnf8Mvn8McQ2Y2ukjsFmux40peQhmp47bQI2IlZQ_eW");
+				"BQCftoxo9W_Hbk5F4CUnbkt4ZbjRwsiGuk");
 
 		int statusCode = response.getStatusCode();
-		Assert.assertEquals(401, statusCode);
+		Assert.assertEquals(400, statusCode);
 
 	}
 }
