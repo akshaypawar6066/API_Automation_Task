@@ -93,6 +93,5 @@ public class PlaylistWithReusbaleCalls {
 
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(401, statusCode);
-
 	}
 }
