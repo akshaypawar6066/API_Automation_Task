@@ -20,7 +20,7 @@ Project Execution
 Follow these steps to execute the project:
 
 Clone this repository:
-git clone <repository_url>
+git clone https://github.com/akshaypawar6066/API_Automation_Task.git
 
 Navigate to the project directory:
 cd <Project-Location>
