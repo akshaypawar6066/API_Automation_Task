@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.spotify.tests.PlaylistWithReusbaleCalls"/>
+      <class name="com.weatherapi.tests.GetWeatherDataForSpecificCity"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spotify.tests.PlaylistWithReusbaleCalls">
+      <class name="com.weatherapi.tests.GetWeatherDataForSpecificCity">
         <methods>
-          <include name="updateAPlaylist"/>
-          <include name="createPlaylist"/>
-          <include name="getAPlaylist"/>
+          <include name="ValidateRetrivingTheWeatherForcastForFiveDayaForSpecificCity"/>
+          <include name="setBseURI"/>
         </methods>
-      </class> <!-- com.spotify.tests.PlaylistWithReusbaleCalls -->
+      </class> <!-- com.weatherapi.tests.GetWeatherDataForSpecificCity -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
